@@ -9,7 +9,7 @@ router configurations.
 The data is parsed using the ciscoconfparse module and is served over a rest api.
 The service is prey straight forward and will have the following routes 
   GET /interface/all/ will return all interface blocks.
-  GET /interface/<name> will return info for a parcular block who’s name matches the text passed in <name>.
+  GET /interface/<interface_name> will return info for a parcular block who’s name matches the text passed in <name>.
 
 
 #Testing
@@ -17,6 +17,6 @@ The service is prey straight forward and will have the following routes
 The task_2.py will help you understand how we made use of http.clinet library
 to connect to the above webservice by making requests to the routes 
    - /interface/all/ 
-   - /interface/<name>
+   - /interface/<interface_name>
   
 The obtained response is then displayed in the form of an ascii table.
