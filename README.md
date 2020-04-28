@@ -17,5 +17,6 @@ The service is prey straight forward and will have the following routes
 The task_2.py will help you understand how we made use of http.clinet library
 to connect to the above webservice by making requests to the routes 
    - /interface/all/ 
-   - /interface/<name> 
+   - /interface/<name>
+  
 The obtained response is then displayed in the form of an ascii table.
